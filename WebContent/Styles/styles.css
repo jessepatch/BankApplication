@@ -1,0 +1,140 @@
+body {
+background: hsl(337, 8%, 31%);
+font-family: "trebuchet ms";
+}
+
+header, footer {
+background-color: hsl(337, 91%, 55%);
+}
+
+h1 {
+font-size: 50px;
+color: hsl(337, 91%, 55%);
+text-align: center;
+}
+
+h2 {
+color: hsl(337, 91%, 55%);
+text-align: center;
+}
+
+h3 {
+	color: hsl(355, 43%, 95%);
+}
+
+span {
+	font-family: "trebuchet ms";
+	color: hsl(355, 43%, 95%);	
+	font-size: 34px;
+}
+
+
+
+a.header {
+		text-decoration: none;
+}
+
+a.header2 {
+	text-align: right;
+}
+
+h4 {
+	color: hsl(355, 43%, 95%);
+}
+
+.welcome{
+	text-align:center;
+}
+
+form {
+border: 2px solid hsl(358, 20%, 51%);
+border-radius: 5px;
+font-size: 16px;
+margin: 4px 2px;
+padding: 15px 32px;
+overflow: hidden;
+text-align: center;
+}
+
+form.account {
+	text-align: left;
+}
+
+.signupForm  { 
+	display: flex;
+  flex-direction: column;
+}
+.signup     { 
+	 
+}
+.signupLabel { 
+	
+}
+.singupInput { 
+	
+}
+
+[type="submit"] {
+font-family: "trebuchet ms";
+font-size: 18px;
+cursor: pointer;
+background-color: hsl(337, 91%, 55%);
+color: hsl(337, 8%, 31%);
+padding: 12px 32px;
+border: none;
+margin: 5px;
+}
+
+input {
+margin: 3px;
+}
+
+p {
+color: hsl(355, 43%, 95%);
+}
+
+p.account {
+	text-align: left;
+}
+
+p.text {
+	text-align: left;
+}
+
+a {
+color: hsl(9, 4%, 62%);
+text-align: center;
+}
+
+.welcome {
+padding: 70px;
+}
+
+label{
+color: hsl(355, 43%, 95%);
+}
+
+input {
+	padding: 6px 10px;
+	border: 2px solid hsl(9, 4%, 62%);
+	border-radius: 4px;
+	outline: none;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background-color: hsl(337, 91%, 55%);
+	color: hsl(355, 43%, 95%);
+	padding: 10px;
+}
+
+td {
+	color: hsl(355, 43%, 95%);
+	padding: 10px;
+}
+tr:nth-child(even) {
+	background-color: hsl(358, 20%, 51%);
+	}
